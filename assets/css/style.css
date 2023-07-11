@@ -20,7 +20,7 @@ body {
 ================================ */
 /* container */
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 /* heading / titles */
@@ -159,6 +159,37 @@ body {
 .insta-img {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.insta-img img {
+  width: 300px;
+}
+/* =================================
+    newsetteler section styling
+================================== */
+.newsetteler-container {
+  width: 100%;
+  background-image: url("../img/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 121px;
+  text-align: center;
+  border-radius: 10px;
+}
+.newsetteler-text {
+  margin-bottom: 48px;
+}
+.newsetteler-form {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 12px;
+}
+.newsetteler-form input[type='email'] {
+  padding: 15px 15px 15px 15px ;
+  width: 600px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
 }
