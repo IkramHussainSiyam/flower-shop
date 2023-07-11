@@ -12,9 +12,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  height: 1000vh;
-}
 /* ================================
    Common classes / resuable CSS
 ================================ */
@@ -145,6 +142,9 @@ body {
 .offer-content p {
   margin-bottom: 32px;
 }
+.offer-title span {
+  color: #E55473;
+}
 
 /* =================================
     Instagram section styling
@@ -192,4 +192,24 @@ body {
   border: none;
   outline: none;
   border-radius: 5px;
+}
+
+/* =================================
+      Footer section styling
+================================== */
+#footer {
+  background: #111010;
+  padding: 128px 0;
+  margin-top: 130px;
+  text-align: center;
+}
+.footer-text h3 span {
+  color: #E55473;
+} 
+.footer-text .footer-para {
+  color: rgba(255, 255, 255, 0.90);
+  margin-bottom: 32px;
+}
+.footer-text .footer-copyright {
+  color: rgba(255, 255, 255, 0.40);
 }
