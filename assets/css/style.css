@@ -159,6 +159,58 @@
   justify-content: space-between;
 }
 /* --------------------------------
+            Review Section
+-------------------------------- */
+#review {
+  margin-bottom: 130px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 130px;
+}
+.review-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+.review-info h3 {
+  font-weight: 600;
+}
+.review .review-text {
+  font-style: italic;
+  line-height: 32px;
+  margin: 15px 0;
+  font-size: 16px;
+}
+.person {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.reviewer h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.reviewer p {
+  color: rgba(39, 39, 39, 0.6);
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+.reviewer .next-btn button {
+  background-color: #e55473;
+  color: white;
+  border: none;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  font-size: 24px;
+  cursor: pointer;
+}
+/* --------------------------------
     newsetteler section styling
 -------------------------------- */
 .newsetteler-container {
