@@ -13,7 +13,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  height: 200vh;
+  height: 1000vh;
 }
 /* ================================
    Common classes / resuable CSS
@@ -26,7 +26,7 @@ body {
 /* heading / titles */
 .title-lg {
   color: #272727;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 80px;
   font-family: "Barlow Condensed", sans-serif;
   margin-bottom: 32px;
@@ -34,24 +34,24 @@ body {
 .title-md {
   color: #272727;
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 700;
 }
 .title-footer {
   font-size: 48px;
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
 }
 /* paragraphs */
 .para-lg {
   color: #272727;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: underline;
 }
 .para-md {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 30px;
 }
 /* buttons */
@@ -68,12 +68,12 @@ body {
 
 /* ========================= Styling Starts from here ========================= */
 /* =================================
-          Header styling
+      Header section styling
 ================================== */
-.header {
+#header {
   background: rgba(229, 84, 115, 0.1);
 }
-.header .container {
+#header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,4 +81,48 @@ body {
 }
 .header-para {
   margin-bottom: 30px;
+}
+/* =================================
+      Featured section styling
+================================== */
+#featured-section {
+  margin: 170px 0;
+  text-align: center;
+}
+.featured-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+.featured-flower-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+.featured-flower .flower {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 400px;
+  height: 500px;
+  margin-bottom: 32px;
+}
+.delivery-details {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.delivery-details .details p {
+  color: rgba(39, 39, 39, 0.8);
+  text-decoration: none;
+  margin-top: 18px;
 }
