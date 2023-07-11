@@ -1,19 +1,17 @@
-/* ==========================
-        Google fonts
-========================== */
+/* --------------------------------
+          Google fonts
+-------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* ==========================
-          initials
-========================== */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/* ================================
+/* --------------------------------
    Common classes / resuable CSS
-================================ */
+-------------------------------- */
 /* container */
 .container {
   max-width: 1440px;
@@ -61,11 +59,11 @@
   border: none;
   cursor: pointer;
 }
-/* ========================= Styling Starts from here ========================= */
+/* ------------------- Styling Starts from here ------------------- */
 
-/* =================================
+/* --------------------------------
       Header section styling
-================================== */
+-------------------------------- */
 #header {
   background: rgba(229, 84, 115, 0.1);
 }
@@ -83,9 +81,9 @@
   align-items: center;
   justify-content: center;
 }
-/* =================================
+/* --------------------------------
       Featured section styling
-================================== */
+-------------------------------- */
 #featured-section {
   margin: 180px 0;
   text-align: center;
@@ -123,9 +121,9 @@
   margin-top: 18px;
   font-size: 20px;
 }
-/* =================================
-    Hot deal section styling
-================================== */
+/* --------------------------------
+      Hot deal section styling
+-------------------------------- */
 #offer {
   background: rgba(229, 84, 115, 0.05);
   padding: 100px;
@@ -145,9 +143,9 @@
 .offer-title span {
   color: #E55473;
 }
-/* =================================
-    Instagram section styling
-================================== */
+/* --------------------------------
+      Instagram section styling
+-------------------------------- */
 #instagram {
   margin: 130px 0;
   text-align: center;
@@ -160,9 +158,9 @@
   align-items: center;
   justify-content: space-between;
 }
-/* =================================
+/* --------------------------------
     newsetteler section styling
-================================== */
+-------------------------------- */
 .newsetteler-container {
   width: 100%;
   background-image: url("../img/Rectangle\ 9.png");
@@ -189,9 +187,9 @@
   outline: none;
   border-radius: 5px;
 }
-/* =================================
+/* --------------------------------
       Footer section styling
-================================== */
+-------------------------------- */
 #footer {
   background: #111010;
   padding: 128px 0;
