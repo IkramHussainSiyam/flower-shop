@@ -35,11 +35,13 @@ body {
   color: #272727;
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 18px;
 }
 .title-footer {
   font-size: 48px;
   color: #fff;
   font-weight: 700;
+  margin-bottom: 18px;
 }
 /* paragraphs */
 .para-lg {
@@ -90,10 +92,7 @@ body {
   text-align: center;
 }
 .featured-text {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 .featured-flower-container {
   display: flex;
@@ -125,4 +124,24 @@ body {
   color: rgba(39, 39, 39, 0.8);
   text-decoration: none;
   margin-top: 18px;
+}
+
+/* =================================
+    Hot deal section styling
+================================== */
+#offer {
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px;
+}
+.offer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.offer-content {
+  width: 700px;
+  text-align: center;
+}
+.offer-content p {
+  margin-bottom: 32px;
 }
