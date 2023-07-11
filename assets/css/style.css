@@ -164,7 +164,7 @@
 #review {
   margin-bottom: 130px;
   background: rgba(229, 84, 115, 0.05);
-  padding: 130px;
+  padding: 130px 0;
 }
 .review-container {
   display: flex;
@@ -233,7 +233,7 @@
   gap: 12px;
 }
 .newsetteler-form input[type='email'] {
-  padding: 15px;
+  padding: 16px;
   width: 600px;
   border: none;
   outline: none;
