@@ -1,9 +1,67 @@
+/* ==========================
+        Google fonts
+========================== */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ==========================
+          initials
+========================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'inter', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-html {
-  scroll-behavior: smooth;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/* ================================
+   Common classes / resuable CSS
+================================ */
+/* heading / titles */
+.title-lg {
+  color: #272727;
+  font-weight: 800;
+  font-size: 80px;
+  font-family: "Barlow Condensed", sans-serif;
+  line-height: 20px;
+}
+.title-md {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 20px;
+}
+.title-footer {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 800;
+}
+/* paragraphs */
+.para-lg {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: underline;
+}
+.para-md {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* buttons */
+.btn-primary {
+  background-color: #e55473;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
 }
