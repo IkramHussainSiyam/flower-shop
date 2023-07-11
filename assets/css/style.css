@@ -47,13 +47,13 @@ body {
 .para-lg {
   color: #272727;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: underline;
 }
 .para-md {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
 }
 /* buttons */
@@ -92,7 +92,7 @@ body {
   text-align: center;
 }
 .featured-text {
-  margin-bottom: 80px;
+  margin-bottom: 48px;
 }
 .featured-flower-container {
   display: flex;
@@ -144,4 +144,21 @@ body {
 }
 .offer-content p {
   margin-bottom: 32px;
+}
+
+/* =================================
+    Instagram section styling
+================================== */
+#instagram {
+  margin: 130px 0;
+  text-align: center;
+}
+.instagram-container p {
+  margin-bottom: 48px;
+}
+.insta-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
