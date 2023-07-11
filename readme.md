@@ -1,5 +1,5 @@
 # Flower shop - Assignment
-This an assignment from programming hero course batch 8
+This is an assignment from [Programming Hero](https://github.com/ProgrammingHero1) Course (Batch 8)
 
 Milestone 1 - Module 6 - Assignment 1 (Flower shop)
 <br>
